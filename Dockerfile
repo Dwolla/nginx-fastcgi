@@ -1,3 +1,4 @@
 FROM nginx:1.15.3-alpine
 
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY html /var/www/wp
+COPY default.conf /etc/nginx/conf.d/default.conf
