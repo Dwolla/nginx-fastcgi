@@ -1,3 +1,3 @@
-FROM nginx:1.15.3-alpine
+FROM nginx:alpine
 
 COPY nginx.conf /etc/nginx/nginx.conf
